@@ -1,0 +1,81 @@
+time=5000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=15000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+
+TEST1: Coke with exact money
+time=25000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=35000 | coin_10=1 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=45000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=55000 | coin_10=0 | coin_5=1 | cancel=0 | state=01 | bal=10 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=65000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=15 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=75000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=15 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=85000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=15 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=95000 | coin_10=0 | coin_5=0 | cancel=0 | state=10 | bal=15 | ch=0 | sel=00 | coke=1 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=105000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=115000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=125000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=135000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=145000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=155000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=165000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=175000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=185000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=195000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+
+TEST2: Pepsi with extra money
+time=205000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=215000 | coin_10=1 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=225000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=235000 | coin_10=1 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=245000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=20 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=255000 | coin_10=0 | coin_5=1 | cancel=0 | state=01 | bal=20 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=265000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=25 | ch=0 | sel=00 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=275000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=25 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=285000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=25 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=295000 | coin_10=0 | coin_5=0 | cancel=0 | state=10 | bal=25 | ch=0 | sel=01 | coke=0 pepsi=1 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=305000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=5 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=1 r10=0 | insufficient=0
+time=315000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=325000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=335000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=345000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=355000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=365000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=375000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=385000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=395000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+
+TEST3: Insufficient balance to buy Thumsup
+time=405000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=415000 | coin_10=1 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=425000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=01 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=435000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=445000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=455000 | coin_10=0 | coin_5=0 | cancel=0 | state=10 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=1
+time=465000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=475000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=485000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=495000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=505000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=515000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=525000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=535000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=545000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=555000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+
+TEST4: Cancel and return money
+time=565000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=575000 | coin_10=1 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=585000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=595000 | coin_10=0 | coin_5=1 | cancel=0 | state=01 | bal=10 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=605000 | coin_10=0 | coin_5=0 | cancel=0 | state=01 | bal=15 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=615000 | coin_10=0 | coin_5=0 | cancel=1 | state=01 | bal=15 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=625000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=15 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=1 | insufficient=0
+time=635000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=5 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=1 r10=0 | insufficient=0
+time=645000 | coin_10=0 | coin_5=0 | cancel=0 | state=11 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=655000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=665000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=675000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=685000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=695000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=705000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=715000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
+time=725000 | coin_10=0 | coin_5=0 | cancel=0 | state=00 | bal=0 | ch=0 | sel=10 | coke=0 pepsi=0 thumsup=0 | r5=0 r10=0 | insufficient=0
