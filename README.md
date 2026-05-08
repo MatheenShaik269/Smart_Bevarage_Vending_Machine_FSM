@@ -40,6 +40,10 @@ vending-machine-fsm/
 │
 └── images/                    # Waveform screenshots
     ├── waveform.png          # It contains output waveforms of all test cases
+                                Test 1: Exact payment → Coke dispensed
+                                Test 2: Extra payment → Change returned
+                                Test 3: Insufficient balance → no dispense
+                                Test 4: Cancel transaction → full return
   
 
 ---
