@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb;
+module vending_fsm_tb;
 
 reg clk=0, rst;
 reg coin_5, coin_10, cancel, select_btn;
