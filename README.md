@@ -44,7 +44,9 @@ vending-machine-fsm/
                                 Test 2: Extra payment → Change returned
                                 Test 3: Insufficient balance → no dispense
                                 Test 4: Cancel transaction → full return
-  
+
+  ├── simulation_log.txt         # (optional) TCL console output
+
 
 ---
 
@@ -61,6 +63,10 @@ The design is verified using a testbench with multiple scenarios:
 
 ![Waveform](images/waveform.png)
 
+
+---
+## 🧾 TCL Console Output
+Full simulation logs are available in `simulation_log.txt`
 
 ---
 
