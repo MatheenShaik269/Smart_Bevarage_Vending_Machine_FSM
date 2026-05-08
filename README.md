@@ -32,11 +32,14 @@ SmartVend FSM is a Verilog-based vending machine implemented using a Finite Stat
 
 vending-machine-fsm/
 │
-├── vending_fsm.v
-├── vending_fsm_tb.v
-├── README.md
-└── images/
-    ├── waveform.png
+├── vending_fsm.v              # RTL Design (FSM vending machine)
+├── vending_fsm_tb.v           # Testbench for simulation
+├── README.md                  # Project documentation
+├── LICENSE                    # MIT License (optional but recommended)
+├── .gitignore                 # Ignores Vivado/temp files (optional)
+│
+└── images/                    # Waveform screenshots
+    ├── waveform.png          # It contains output waveforms of all test cases
   
 
 ---
