@@ -1,2 +1,95 @@
-# Smart_Bevarage_Vending_Machine_FSM
-FSM-based vending machine in Verilog that accepts ₹5 and ₹10 coins, supports product selection (Coke, Pepsi, ThumsUp), dispenses items, returns change, and handles cancel operations. Designed using state-based control with edge detection and verified through simulation testbench.
+# Smart_Bevarage_Vending_Machine_FSM 🚀
+
+## 📌 Description
+SmartVend FSM is a Verilog-based vending machine implemented using a Finite State Machine (FSM). It accepts ₹5 and ₹10 coins, allows product selection, dispenses beverages, returns change, and supports cancel operation. The design is verified using a simulation testbench.
+
+---
+
+## ⚙️ Features
+- Accepts ₹5 and ₹10 coins  
+- Supports 3 products:
+  - Coke (₹15)
+  - Pepsi (₹20)
+  - ThumsUp (₹25)
+- Handles:
+  - ✅ Exact payment
+  - ✅ Extra payment with change return
+  - ✅ Insufficient balance detection
+  - ✅ Cancel operation
+- Edge detection for reliable input handling  
+- Clean FSM design (IDLE, COLLECT, DISPENSE, RETURN)
+
+---
+
+## 🧠 FSM States
+- **IDLE** → Waits for coin insertion  
+- **COLLECT** → Accumulates balance  
+- **DISPENSE** → Dispenses selected product  
+- **RETURN** → Returns remaining change  
+
+---
+## 📁 Project Structure
+
+vending-machine-fsm/
+│
+├── vending_fsm.v
+├── vending_fsm_tb.v
+├── README.md
+└── images/
+    ├── waveform.png
+  
+
+---
+
+## 🧪 Simulation
+The design is verified using a testbench with multiple scenarios:
+- Exact payment (₹15 → Coke)  
+- Extra payment (₹25 → Pepsi + ₹5 return)  
+- Insufficient balance  
+- Cancel transaction  
+
+---
+
+## 📊 Waveform Results
+
+![Waveform](images/waveform.png)
+
+
+---
+
+## 🚀 How to Run
+1. Open project in simulator (Vivado / ModelSim)  
+2. Compile:
+   - vending_fsm.v  
+   - vending_fsm_tb.v  
+3. Run simulation  
+4. Observe outputs and waveforms  
+
+---
+
+## 🛠️ Tools Used
+- Verilog HDL  
+- Xilinx Vivado Simulator  
+
+---
+
+## 📌 Key Concepts
+- Finite State Machine (FSM)  
+- Edge Detection  
+- Sequential & Combinational Logic  
+- Digital System Design  
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+**SHAIK ABDUL MATHEEN**
+
+---
+
+## ⭐ Acknowledgement
+This project was developed as part of learning digital design and FSM implementation.
